@@ -1,0 +1,34 @@
+{
+  "name": "heni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethDJohn/HENI.git"
+  },
+  "author": "Gareth John <gdjohn@logicalparadox.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarethDJohn/HENI/issues"
+  },
+  "homepage": "https://github.com/GarethDJohn/HENI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
